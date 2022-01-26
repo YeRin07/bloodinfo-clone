@@ -2,6 +2,44 @@
 @import url("./fonts.css");
 @import url("./main.css");
 
-body {font-family:'NotoSans';}
+body{font-family:'NotoSans';}
 
-.inner_1400 {width:1400px;margin:auto;}
+.inner_1400{width:1400px;margin:auto;}
+.nav{display:flex;}
+
+
+/* Header */
+header{background:url(../images/header_line.png) repeat-x;}
+header > div{display:flex;width:1400px;margin:auto;}
+header .hd_top{justify-content:space-between;}
+header .hd_top nav .nav li{background-color:#cccccc;}
+header .hd_top nav .nav .bg1{background-color:#ebebeb;}
+header .hd_top nav .nav .bg2{background-color:#d9d9d9;}
+header .hd_top nav .nav li a{display:block;padding:11px 30px;font-size:15px;color:#3e3e3e;}
+header .hd_top aside{display:flex;align-items:center;}
+header .hd_top aside .nav li{padding:0 10px 5px;}
+header .hd_top aside .nav li a{font-size:14px;color:#464646;}
+header .hd_top aside .nav li .icon1{padding-left:17px;background:url(../images/header_top_log.gif) no-repeat 0 center;}
+header .hd_top aside .nav li .icon2{padding-left:17px;background:url(../images/header_top_my.gif) no-repeat 0 center;}
+header .hd_top aside .nav + .nav li{margin-left:5px;padding:0;}
+header .hd_bottom h1{padding:39px 0;}
+header .hd_bottom nav .nav{margin:58px 0 0 18px;}
+header .hd_bottom nav .nav li{position:relative;}
+header .hd_bottom nav .nav li a{padding:20px 18px 48px;font-size:20px;color:#2b2b2b;}
+/* 마우스 오버일 때 */
+header .hd_bottom nav .nav li a:hover span::after{content:'';position:absolute;left:0;bottom:-14px;width:100%;height:8px;background:#fe9968;}
+header .hd_bottom nav .nav li ul{position:absolute;top:77px;width:220px;padding:10px 20px;border:1px solid #c4c6c5;background-color:#fff;}
+header .hd_bottom nav .nav li ul li a{display:block;padding:10px 10px;font-size:15px;}
+header .hd_bottom nav .nav li ul li a:hover{background-color:#f00;color:#fff;}
+header .hd_bottom nav .nav li ul{display:none;}
+header .hd_bottom aside a img{margin:62px 0 0 60px;}
+/* 토글 눌렀을 때 */
+/* header .hd_bottom aside .menu_bg{position:fixed;left:0;top:0;width:100%;height:100%;background:url(../images/overlay.png);z-index:1;}
+header .hd_bottom aside .menu_cont{position:absolute;left:0;top:0;width:1400px;border:1px solid #f9514f;background:#fff;z-index:2;}
+header .hd_bottom aside .menu_cont .menu_cont_hd{font-size:16px;color:#fff;background-color:#f9514f;} */
+
+
+
+.menu_bg{display:none;}
+.menu_cont{display:none;}
+footer{display:none}

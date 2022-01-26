@@ -34,7 +34,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 img{vertical-align:top}
 
-html,body {max-width: 100%;overflow-x: hidden;}
+shtml,body {max-width: 100%}
 
 input:focus{outline:none}
 

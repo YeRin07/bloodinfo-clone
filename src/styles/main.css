@@ -1,0 +1,19 @@
+/* Banner */
+main .banner {position: relative;}
+main .banner a .banner_img{width:100%;}
+main .banner a .banner_img_m{display: none;}
+main .banner a .prev{position: absolute;top: 46%;left: 12px;}
+main .banner a .next{position: absolute;top: 46%; right: 12px;}
+main .banner .slide_btn{position: absolute;left:50%;transform: translateX(-50%); bottom: 16px;display: flex;}
+main .banner .slide_btn li{margin: 0 5px;}
+/* Banner_1420px */
+@media screen and (max-width: 1420px) {
+    main .banner a .banner_img{display: none;}
+    main .banner a .banner_img_m{display: block;width: 100%; margin: 0px auto;}
+}
+
+
+/* Main_floor1 */
+main .main_floor1{width: 1400px;margin: 100px auto;}
+
+
