@@ -16,9 +16,25 @@ main .banner .slide_btn li{margin: 0 5px;}
 /* Main_floor1 */
 main > .main_floor1 > div{font-size: 28px;font-weight: bold; color: #2c2c2c;}
 main .main_floor1{width: 1400px;margin: 100px auto;}
+main .main_floor1:after{content:'';display:block;clear:both}
 main .main_floor1 .service {float: left; width: calc(100% - 535px);}
 main .main_floor1 .service ul li {float: left; width: 25%; margin-top: 25px;text-align: center;}
 main .main_floor1 .service ul li a .img{width: 124px;height: 124px;margin: 0 auto 10px; background:url(../images/service_off_ico01.gif);}
+main .main_floor1 .service ul li:nth-child(2) a .img{background-image:url(../images/service_off_ico02.gif);}
+main .main_floor1 .service ul li:nth-child(3) a .img{background-image:url(../images/service_off_ico03.gif);}
+main .main_floor1 .service ul li:nth-child(4) a .img{background-image:url(../images/service_off_ico04.gif);}
+main .main_floor1 .service ul li:nth-child(5) a .img{background-image:url(../images/service_off_ico05.gif);}
+main .main_floor1 .service ul li:nth-child(6) a .img{background-image:url(../images/service_off_ico06.gif);}
+main .main_floor1 .service ul li:nth-child(7) a .img{background-image:url(../images/service_off_ico07.gif);}
+main .main_floor1 .service ul li:nth-child(8) a .img{background-image:url(../images/service_off_ico08.gif);}
+main .main_floor1 .service ul li a .img:hover{background-image: url(../images/service_on_ico01.gif);}
+main .main_floor1 .service ul li:nth-child(2) a .img:hover{background-image:url(../images/service_on_ico02.gif);}
+main .main_floor1 .service ul li:nth-child(3) a .img:hover{background-image:url(../images/service_on_ico03.gif);}
+main .main_floor1 .service ul li:nth-child(4) a .img:hover{background-image:url(../images/service_on_ico04.gif);}
+main .main_floor1 .service ul li:nth-child(5) a .img:hover{background-image:url(../images/service_on_ico05.gif);}
+main .main_floor1 .service ul li:nth-child(6) a .img:hover{background-image:url(../images/service_on_ico06.gif);}
+main .main_floor1 .service ul li:nth-child(7) a .img:hover{background-image:url(../images/service_on_ico07.gif);}
+main .main_floor1 .service ul li:nth-child(8) a .img:hover{background-image:url(../images/service_on_ico08.gif);}
 main .main_floor1 .service ul li a p{width: 124px;margin: auto; font-size: 20px;font-weight: 400; color: #6f6f6f;}
 main .main_floor1 .alrimpan {position: relative;float: right;}
 main .main_floor1 .alrimpan .slide a .prev{position: absolute;top: 9px;right: 46px;}
@@ -31,7 +47,7 @@ main .main_floor1 .alrimpan .slide div .slide_btn {position: absolute;top: 90px;
     main > .main_floor1 > div{font-size: 21px;}
     main .main_floor1{display: flex;flex-direction: column; width: calc(100% - 20px);margin: 30px auto 18px;}
     main .main_floor1 .service {width: 100%;}
-    main .main_floor1 .service ul li a .img {width: 60px;height: 60px;background:url(../images/service_off_ico01.gif);background-size: cover;}
+    main .main_floor1 .service ul li a .img {width: 60px;height: 60px; background-size: cover;}
     main .main_floor1 .service ul li a p{width: 100%; font-size: 14px;}
     main .main_floor1 .alrimpan {margin:30px auto 0;}
     main .main_floor1 .alrimpan .slide div {margin-top: 16px;}
@@ -41,5 +57,8 @@ main .main_floor1 .alrimpan .slide div .slide_btn {position: absolute;top: 90px;
 
 
 /* Main_floor2 */
+main .main_floor2 {}
+
+
 
 

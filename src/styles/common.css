@@ -57,6 +57,35 @@ header .hd_bottom aside .menu_cont .menu_cont_hd{font-size:16px;color:#fff;backg
 }
 
 
+/* Footer */
+footer {border-top: 1px solid #e6e6e6;;}
+footer .footer_nav {display: flex;justify-content: space-between;width: 1400px; margin: auto; align-items: center;}
+footer .footer_nav p {padding-left: 40px;font-size: 23px;color: #373737;background: url(../images/phone_ico.gif) no-repeat;}
+footer .footer_nav span:nth-child(1) {color: #e76774;}
+footer .footer_nav span:nth-child(2) {font-size: 19px;color: #fff; background: #808080;}
+footer .footer_nav span:nth-child(3) {font-size: 18px;color: #6b6b6b;}
+footer .footer_in {padding: 25px 0 35px; background: #e6e6e6;}
+footer .footer_in .inner_1400:after{content:'';display:block;clear:both}
+footer .footer_in .inner_1400 h1{float: left;margin-right: 50px;}
+footer .footer_in .inner_1400 .center{float: left;}
+footer .footer_in .inner_1400 .center .download{padding:6px 30px 6px 10px; color: #fff;background: url(../images/down_ico.gif) no-repeat 338px 6px #6c6b6b;}
+footer .footer_in .inner_1400 .center .download span {color: #ff9999;}
+footer .footer_in .inner_1400 .center ul {margin: 15px 0 20px;}
+footer .footer_in .inner_1400 .center ul li{position: relative; float: left;padding:0 15px 0 17px;}
+footer .footer_in .inner_1400 .center ul li:first-child {padding-left: 0;}
+footer .footer_in .inner_1400 .center ul li::before{content: '';position: absolute;right: 0;bottom: 3px; width: 1px;height: 15px;background:#6c6b6b;}
+footer .footer_in .inner_1400 .center ul li:last-child::before{display: none;}
+footer .footer_in .inner_1400 .center ul li a{font-size: 15px;color: #666666;}
+footer .footer_in .inner_1400 .center p{font-size: 15px;color: #666666;}
+footer .footer_in .inner_1400 .center p + p{font-size: 12px;}
+footer .footer_in .inner_1400 .right{float: right;}
+footer .footer_in .inner_1400 .right div {margin-bottom: 25px;}
+footer .footer_in .inner_1400 .right div #select{width: 200px;height: 38px;padding: 0 10px;border-radius: 4px; font-size: 14px;color: #666666;}
+footer .footer_in .inner_1400 .right div input{padding: 10px 20px;border-radius: 5px;font-size: 14px;color: #fff;background: #333333;}
+footer .footer_in .inner_1400 .right a {float: right;}
+
+
+
+
 .menu_bg{display:none;}
 .menu_cont{display:none;}
-footer{display:none}
