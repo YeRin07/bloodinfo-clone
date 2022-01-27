@@ -14,6 +14,32 @@ main .banner .slide_btn li{margin: 0 5px;}
 
 
 /* Main_floor1 */
+main > .main_floor1 > div{font-size: 28px;font-weight: bold; color: #2c2c2c;}
 main .main_floor1{width: 1400px;margin: 100px auto;}
+main .main_floor1 .service {float: left; width: calc(100% - 535px);}
+main .main_floor1 .service ul li {float: left; width: 25%; margin-top: 25px;text-align: center;}
+main .main_floor1 .service ul li a .img{width: 124px;height: 124px;margin: 0 auto 10px; background:url(../images/service_off_ico01.gif);}
+main .main_floor1 .service ul li a p{width: 124px;margin: auto; font-size: 20px;font-weight: 400; color: #6f6f6f;}
+main .main_floor1 .alrimpan {position: relative;float: right;}
+main .main_floor1 .alrimpan .slide a .prev{position: absolute;top: 9px;right: 46px;}
+main .main_floor1 .alrimpan .slide a .play{position: absolute;top: 9px;right: 23px;}
+main .main_floor1 .alrimpan .slide a .next{position: absolute;top: 9px;right: 0;}
+main .main_floor1 .alrimpan .slide div {margin-top: 30px;}
+main .main_floor1 .alrimpan .slide div .slide_btn {position: absolute;top: 90px;right: 23px;}
+/* Main_floor1_1420px */
+@media screen and (max-width: 1420px) {
+    main > .main_floor1 > div{font-size: 21px;}
+    main .main_floor1{display: flex;flex-direction: column; width: calc(100% - 20px);margin: 30px auto 18px;}
+    main .main_floor1 .service {width: 100%;}
+    main .main_floor1 .service ul li a .img {width: 60px;height: 60px;background:url(../images/service_off_ico01.gif);background-size: cover;}
+    main .main_floor1 .service ul li a p{width: 100%; font-size: 14px;}
+    main .main_floor1 .alrimpan {margin:30px auto 0;}
+    main .main_floor1 .alrimpan .slide div {margin-top: 16px;}
+    main .main_floor1 .alrimpan .slide div img {width: 100%;}
+    main .main_floor1 .alrimpan .slide div .slide_btn {position: absolute;top: 68px;right: 23px;}
+}
+
+
+/* Main_floor2 */
 
 

@@ -6,6 +6,8 @@ body{font-family:'NotoSans';}
 
 .inner_1400{width:1400px;margin:auto;}
 .nav{display:flex;}
+.slide_btn{position: absolute;display: flex;}
+.slide_btn li{margin: 0 5px;}
 
 
 /* Header */
@@ -27,17 +29,32 @@ header .hd_bottom nav .nav{margin:58px 0 0 18px;}
 header .hd_bottom nav .nav li{position:relative;}
 header .hd_bottom nav .nav li a{padding:20px 18px 48px;font-size:20px;color:#2b2b2b;}
 /* 마우스 오버일 때 */
-header .hd_bottom nav .nav li a:hover span::after{content:'';position:absolute;left:0;bottom:-14px;width:100%;height:8px;background:#fe9968;}
+header .hd_bottom nav .nav li a span {position: relative;}
+header .hd_bottom nav .nav li a span::after{content:'';position:absolute;left:0;bottom:-14px;width:100%;height:8px;background:#fe9968;transform: scale(0,1);transition: all 0.2s ease-in-out;}
+header .hd_bottom nav .nav li a:hover span::after{transform: scale(1,1);}
 header .hd_bottom nav .nav li ul{position:absolute;top:77px;width:220px;padding:10px 20px;border:1px solid #c4c6c5;background-color:#fff;}
 header .hd_bottom nav .nav li ul li a{display:block;padding:10px 10px;font-size:15px;}
 header .hd_bottom nav .nav li ul li a:hover{background-color:#f00;color:#fff;}
 header .hd_bottom nav .nav li ul{display:none;}
 header .hd_bottom aside a img{margin:62px 0 0 60px;}
+header .hd_bottom aside a + a {display: none;}
 /* 토글 눌렀을 때 */
 /* header .hd_bottom aside .menu_bg{position:fixed;left:0;top:0;width:100%;height:100%;background:url(../images/overlay.png);z-index:1;}
 header .hd_bottom aside .menu_cont{position:absolute;left:0;top:0;width:1400px;border:1px solid #f9514f;background:#fff;z-index:2;}
 header .hd_bottom aside .menu_cont .menu_cont_hd{font-size:16px;color:#fff;background-color:#f9514f;} */
-
+/* Header_1420px */
+@media screen and (max-width: 1420px) {
+    header {background: none;border-top: 4px solid #f00;}
+    header .hd_top {display: none;}
+    header .hd_bottom h1 {padding: 11px 0 0;}
+    header .hd_bottom h1 img{width: 135px;height: 33px;}
+    header .hd_bottom {position: relative; justify-content: center; width: calc(100% - 40px);margin: auto;}
+    header .hd_bottom nav {display: none;}
+    header .hd_bottom aside a:nth-child(1) img{position: absolute; left: 0; top: 20px;width: 18px;height: 14px;}
+    header .hd_bottom aside a:nth-child(2){display: block;}
+    header .hd_bottom aside a:nth-child(2) img {position: absolute; left: auto;right: 0; top: 20px;width: 18px;height: 19px;}
+    header .hd_bottom aside a img{margin: 0;}
+}
 
 
 .menu_bg{display:none;}
