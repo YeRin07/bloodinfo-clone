@@ -44,11 +44,13 @@ header .hd_bottom aside .menu_cont{position:absolute;left:0;top:0;width:1400px;b
 header .hd_bottom aside .menu_cont .menu_cont_hd{font-size:16px;color:#fff;background-color:#f9514f;} */
 /* Header_1420px */
 @media screen and (max-width: 1420px) {
-    header {background: none;border-top: 4px solid #f00;}
-    header .hd_top {display: none;}
+    header {position: fixed;width: 100%; background-image: none;background-color: #fff; z-index: 600;}
+    header .hd_top {border-top: 4px solid #f00;}
+    header .hd_top nav{display: none;}
+    header .hd_top aside{display: none;}
+    header .hd_bottom {position: relative; justify-content: center; width: calc(100% - 40px);}
     header .hd_bottom h1 {padding: 11px 0 0;}
     header .hd_bottom h1 img{width: 135px;height: 33px;}
-    header .hd_bottom {position: relative; justify-content: center; width: calc(100% - 40px);margin: auto;}
     header .hd_bottom nav {display: none;}
     header .hd_bottom aside a:nth-child(1) img{position: absolute; left: 0; top: 20px;width: 18px;height: 14px;}
     header .hd_bottom aside a:nth-child(2){display: block;}
@@ -83,6 +85,26 @@ footer .footer_in .inner_1400 .right div {margin-bottom: 25px;}
 footer .footer_in .inner_1400 .right div #select{width: 200px;height: 38px;padding: 0 10px;border-radius: 4px; font-size: 14px;color: #666666;}
 footer .footer_in .inner_1400 .right div input{padding: 10px 20px;border-radius: 5px;font-size: 14px;color: #fff;background: #333333;}
 footer .footer_in .inner_1400 .right a {float: right;}
+/* Footer_1420px */
+@media screen and (max-width: 1420px){
+    footer .footer_nav{width: calc(100% - 20px);padding: 0 20px;}
+    footer .footer_nav p {padding: 0 20px 0; font-size: 18px;background-image: none;}
+    footer .footer_nav span:nth-child(2) {font-size: 18px;}
+    footer .footer_nav span:nth-child(3) {font-size: 14px;}
+    footer .footer_in .inner_1400{width: calc(100% - 20px);padding: 0 20px;}
+    footer .footer_in .inner_1400 h1 {display: none;}
+    footer .footer_in .inner_1400 .center .download{font-size: 14px;background-position: 300px 6px;}
+    footer .footer_in .inner_1400 .center ul li {padding: 0 4px 0 4px;}
+    footer .footer_in .inner_1400 .center ul li a{font-size: 14px;}
+    footer .footer_in .inner_1400 .right {float: none;text-align: center;}
+    footer .footer_in .inner_1400 .right div{margin: 0;}
+    footer .footer_in .inner_1400 .right div #select{width:calc(100% - 77px);margin: 20px 0 15px;}
+    footer .footer_in .inner_1400 .right a{float: none;}
+}
+
+
+
+
 
 
 

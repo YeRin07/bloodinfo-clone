@@ -8,8 +8,9 @@ main .banner .slide_btn{position: absolute;left:50%;transform: translateX(-50%);
 main .banner .slide_btn li{margin: 0 5px;}
 /* Banner_1420px */
 @media screen and (max-width: 1420px) {
+    main .banner {padding-top: 58px;}
     main .banner a .banner_img{display: none;}
-    main .banner a .banner_img_m{display: block;width: 100%; margin: 0px auto;}
+    main .banner a .banner_img_m{display: block;width: 100%;}
 }
 
 
@@ -61,4 +62,28 @@ main .main_floor2 {}
 
 
 
+
+
+
+
+
+/* Main_floor3 */
+main .main_floor3 {width:1400px;margin:auto;padding: 50px 0px;}
+main .main_floor3 .text p {float: left;margin-right: 4px; font-size: 28px;font-weight: bold;color: #2c2c2c;}
+main .main_floor3 .text p span{color: #286ada;}
+main .main_floor3 .text a{vertical-align: middle;}
+main .main_floor3 ul{display: flex;justify-content: center;margin: 60px auto 0;}
+main .main_floor3 ul li {position: relative;width: 280px;height: 370px;margin-right: 25px; padding: 16px 16px;border: 1px solid #cccccc;}
+main .main_floor3 ul li:last-child{margin-right: 0;}
+main .main_floor3 ul li a{display: block;text-align: end;}
+main .main_floor3 ul li .sns_img {text-align: center;}
+main .main_floor3 ul li .sns_img img{width: 196px;border-radius: 98px;}
+main .main_floor3 ul li p{margin-top: 30px;font-size: 16px;color: #454545;}
+/* Main_floor3_1420px */
+@media screen and (max-width: 1420px){
+    main .main_floor3{width: calc(100% - 20px);}
+    main .main_floor3 .text p{float: none;margin-bottom: 10px; font-size: 21px;}
+    main .main_floor3 ul{margin-top: 31px; flex-direction: column;align-items: center;}
+    main .main_floor3 ul li{margin: 10px;}
+}
 
